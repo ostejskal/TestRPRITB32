@@ -21,7 +21,7 @@ namespace WindowsFormsApp11
         private void button1_Click(object sender, EventArgs e)
         {
             int cc = (int)numericUpDown1.Value;
-            MessageBox.Show(rng.Next(1, cc + 1).ToString());
+            MessageBox.Show("Ahoj");
         }
     }
 }
